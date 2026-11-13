@@ -1,0 +1,6 @@
+{
+  "name": "Ca Huế và Ca Nhạc Thính Phòng - Số Hóa Di Sản Văn Hóa Phi Vật Thể",
+  "description": "Ứng dụng số hóa hệ thống bài bản, điệu thức, nhạc cụ, quy ước biểu diễn và không gian thưởng thức Ca Huế vùng Bắc Trung Bộ với dữ liệu có nguồn kiểm chứng.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-royal: "Cinzel", serif;
+
+  --color-hue-purple: #4A154B;
+  --color-hue-purple-deep: #2F0D30;
+  --color-hue-gold: #C59B27;
+  --color-hue-gold-light: #F7EFCF;
+  --color-hue-wood: #3D271D;
+  --color-hue-ivory: #FAF8F5;
+  --color-hue-paper: #F2ECE1;
+}
+
+html {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+  width: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAF8F5;
+  color: #1C1917;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-royal {
+  font-family: var(--font-royal);
+}
+
+/* Fluid responsive media & text utilities */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hide scrollbars for horizontal tabbars while keeping scroll functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
